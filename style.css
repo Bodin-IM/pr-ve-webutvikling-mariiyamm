@@ -1,0 +1,92 @@
+body{
+    margin: 0em;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(43, 43, 153);
+    color: white;
+    padding: 1em;
+    padding-inline: 5em;
+}
+
+#knappen{
+    background-color: rgb(43, 43, 153);
+    border-color: rgb(255, 249, 249);
+    border-style: ridge;
+    width: auto;
+    height: 2em;
+    font-size: 18pt;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: whi;
+}
+
+#post{
+    background-color: rgb(29, 29, 156);
+    color: white;
+    height: 28em;
+    border-color: rgb(74, 77, 78);
+    border-style: ridge;
+    font-size: 16pt;
+    padding-inline: 50px;
+    padding-top: 1em;
+}
+
+#photo{
+    padding-top: 2em;
+}
+
+#side{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+}
+
+#linker{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    font-display: flex;
+}
+
+#tekst{
+    
+    background-color: rgb(60, 60, 154);
+    color: white;
+    font-size: 16pt;
+    border-color: rgb(74, 77, 78);
+    border-style: ridge;
+}
+
+#bilder{
+    display: flex;
+    border-color: rgb(74, 77, 78);
+    border-style: ridge;  
+}
+
+#box{
+    display: flex;
+    flex-direction:row;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        width: 100%;
+    }
+    #side{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 0%;
+    }
+
+    h1{
+        font-size: 18pt;
+    }
